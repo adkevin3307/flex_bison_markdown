@@ -8,7 +8,7 @@
 
 ## How to Use
 1. `bash run.sh`
-2. `./token.out < {filename}.md`
+2. `./token.out < {filename}.md` or you can just use `test.md`
 
 ## Parser Can Do
 1. `# str -> <h1>str</h1>`
