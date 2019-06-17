@@ -8,7 +8,14 @@
 
 ## How to Use
 1. `bash run.sh`
-2. `./token.out < {filename}.md` or you can just use `test.md`
+2. `./token.out < {filename}.md`
+
+## File Explain
+* `scanner.l` scan markdown with regular expression
+* `parser.y` construct CFG
+* `run.sh` command need to run
+* `test.md` markdown test file
+* `test.html` default output file
 
 ## Parser Can Do
 1. `# str -> <h1>str</h1>`
